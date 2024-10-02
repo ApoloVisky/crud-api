@@ -7,7 +7,7 @@ import jakarta.persistence.*;
 @Entity(name= "product")
 @Table(name="product")
 public class Product {
-
+//TODO: Aguardando next parte
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
